@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+html,body{
+	height: 100%;
+	max-width: 100%;
+	line-height: 1;
+    overflow-x: hidden;
+}
+
+body {
+    background: rgb(252, 244, 208);;
+    background-size: cover;
+    font-family:' Bad Script';
+    font-size: 24px;
+}
+
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	background-color: rgba(202, 199, 199, 0.548);
+        width: 100%;
+        height: 60px;
+        display: inline-block;
+        font-family: 'IBM Plex Serif';
+        
+      
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+.header a{
+    font-size: 26px;
+           letter-spacing: 5%;
+           color: #434343;
+           line-height: 39px;
+
+}
+
+        .navigation {
+        background-attachment: fixed;
+            width: 100%;
+            max-width: 1300px;
+            height: 45px;
+            margin: 10px auto 0;
+            display: flex;
+            justify-content: space-between;
+    }
+    
+            
+                .conttwo{
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 48px;
+                    line-height: 150%;   
+                    letter-spacing: 0.135em;
+                    color: #434343;
+                
+                }
+.girl{
+               
+	width: 100%;
+}
+.girl_image{
+width: 100vw;
+}
+ .section2, .section3, .section4, .section5{
+    text-align: center;
+} 
+.conttwo{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.text1{
+font-family:' Bad Script';
+font-size: 36px;
+line-height: 150%;
+letter-spacing: 0.135em;
+color: #000000;
+}
+.fotki{
+display: flex;
+}
+.foto1{
+    margin-left: 3%;
+}
+.gif{
+margin-left: -15%;
+margin-top: -15%;
+vertical-align: bottom;
+}
+.text2 {
+    padding-top: 3%;
+    margin: 1%;
+    font-family: Bad Script;
+    font-style: normal;
+    font-weight: normal;
+font-size: 36px;
+line-height: 150%;
+}
+
+.fotka2{
+    display: inline-block;
+
+}
+.foto2{
+    margin-top: -50%;
+    margin-left: 15%;
+}
+
+.text3{
+    padding-top: 10px;
+    margin:auto 10% auto  10% ;
+   font-family: 'Bad Script';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0.135em;
+    color: #000000;
+}
+
+.gallery1 {
+    display: inline-block;
+}
+.gallery1 img{
+width: 35%;
+}
+
+.gallery22{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.gallery22 img{
+    width: 265px;
+    height: 375px;
+    margin: 1%;
+   transition: 2s;
+}
+
+.gallery22 img:hover{
+    transform: scale(1.2);
+}
+.img1 {
+    height: 444px;
+}
+.img2 {
+    height: 400px;
+}
